@@ -14,17 +14,19 @@ Not affiliated with TSE.
 ```bash
 pip install finaTSE
 
+```
 
 ### Usage Example
+
 ```bash
 from finaTSE import TSEClient
 
 client = TSEClient()
 
 # Real-time data
-data = client.get_realtime_data("فملی")
-print(data)
+data = client.get_realtime("فملی")
+print(data["last_price"])
 
 # Historical data (last 30 days)
-df = client.get_history("فملی", days=30)
-print(df.head())
+df = client.get_history("فولاد", days=30)
+print(df.tail())
