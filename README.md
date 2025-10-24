@@ -1,6 +1,8 @@
 # finaTSE
 Python package to access Tehran Stock Exchange (TSE) data
 
+ https://pypi.org/project/finaTSE/
+
 
 # finaTSE
 
