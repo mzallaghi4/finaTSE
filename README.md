@@ -8,7 +8,8 @@ Python package to access Tehran Stock Exchange (TSE) data
 
 > Access **Tehran Stock Exchange (TSE)** market data in Python.
 
-⚠️ **Unofficial** — scrapes [tsetmc.com](http://tsetmc.com). 
+⚠️ **Unofficial** — scrapes [tsetmc.com](http://tsetmc.com)
+
 Not affiliated with TSE.
 
 ### Installation
